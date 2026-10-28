@@ -1,0 +1,4 @@
+/* Keep the original site's reset and styles. Do not import Tailwind Preflight. */
+@layer theme, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
