@@ -1,0 +1,78 @@
+{
+  "Photos/Vada_Pav.png": {
+    "width": 1024,
+    "height": 538,
+    "bytes": 747018,
+    "variants": [
+      {
+        "src": "optimized/Vada_Pav-480.webp",
+        "width": 480,
+        "height": 252,
+        "bytes": 141212
+      },
+      {
+        "src": "optimized/Vada_Pav-960.webp",
+        "width": 960,
+        "height": 504,
+        "bytes": 468268
+      }
+    ]
+  },
+  "Photos/bhavnagri_mirchi.jpg": {
+    "width": 3264,
+    "height": 2448,
+    "bytes": 4588298,
+    "variants": [
+      {
+        "src": "optimized/bhavnagri_mirchi-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 312038
+      },
+      {
+        "src": "optimized/bhavnagri_mirchi-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 1114404
+      },
+      {
+        "src": "optimized/bhavnagri_mirchi-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 2779092
+      }
+    ]
+  },
+  "Photos/handvo.webp": {
+    "width": 2095,
+    "height": 2041,
+    "bytes": 854548,
+    "variants": [
+      {
+        "src": "optimized/handvo-480.webp",
+        "width": 480,
+        "height": 468,
+        "bytes": 374320
+      }
+    ]
+  },
+  "Photos/thepla.webp": {
+    "width": 2560,
+    "height": 1440,
+    "bytes": 711858,
+    "variants": [
+      {
+        "src": "optimized/thepla-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 188414
+      },
+      {
+        "src": "optimized/thepla-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 664790
+      }
+    ]
+  }
+}

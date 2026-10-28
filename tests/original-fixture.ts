@@ -26,7 +26,7 @@ export async function originalFixture(): Promise<OriginalFixture> {
     pretendToBeVisual: true,
     beforeParse(win) {
       win.Date = Date;
-      win.HTMLCanvasElement.prototype.getContext = (() => canvasContext()) as
+      win.HTMLCanvasElement.prototype.getContext = (() => canvasContext()) as unknown as
         typeof win.HTMLCanvasElement.prototype.getContext;
       win.requestAnimationFrame = () => 1;
       win.cancelAnimationFrame = () => undefined;

@@ -39,6 +39,8 @@ export interface OrderDetails {
 
 export interface OrderMessage {
   message: string;
+  orderRef: string;
+  itemsText: string;
   submittedIds: number[];
   total: number;
 }

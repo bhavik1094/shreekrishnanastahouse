@@ -1,5 +1,7 @@
 node_modules/
 dist/
 *.local
+# Local order-notification endpoint configuration.
+.env.local
 *.tsbuildinfo
 coverage/

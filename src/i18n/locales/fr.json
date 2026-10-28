@@ -1,0 +1,303 @@
+{
+  "hours": { "opens": "7 h 00", "closes": "20 h 00" },
+  "language": {
+    "label": "Langue du site",
+    "name": "Français"
+  },
+  "navigation": {
+    "label": "Navigation principale",
+    "brandFirst": "Shree Krishna",
+    "brandSecond": "Nasta House",
+    "menu": "Menu",
+    "partyMenu": "Menu de fête",
+    "story": "Notre histoire",
+    "packaging": "Emballage",
+    "order": "Ma commande"
+  },
+  "cart": {
+    "open": "Ouvrir votre commande ({{count}} articles)",
+    "title": "Votre commande",
+    "close": "Fermer votre commande",
+    "empty": "Votre panier est vide.",
+    "emptyInitial": "Ajoutez une délicieuse spécialité !",
+    "emptyAfterUpdate": "Ajoutez de délicieux nasta !",
+    "breadPortion": "{{bread}} ({{quantity}} pièces)",
+    "decrease": "Réduire la quantité de {{product}}",
+    "increase": "Augmenter la quantité de {{product}}",
+    "closedNotice": "<strong>Nous sommes fermés pour le moment.</strong> Vous pouvez commander entre <strong>{{opens}} et {{closes}}</strong>, {{days}} jours sur sept. Revenez demain matin, nous serons prêts ! 🪔",
+    "minimumNotice": "<strong>Le minimum de commande est de {{minimum}}.</strong> Ajoutez encore <remaining>{{remaining}}</remaining> pour passer commande. Nous livrons uniquement en <strong>Île-de-France</strong> (Paris et les départements voisins).",
+    "preorderNotice": "<strong>Précommande :</strong> Votre commande comprend du {{product}}, qui nécessite <strong>{{days}} jour de préavis</strong>. Commandez aujourd'hui pour une livraison demain.",
+    "partyNotice": "<strong>Menu de fête :</strong> Les prix sont indiqués <strong>par personne</strong>, avec un <strong>minimum de {{minimum}} portions par plat</strong>. Commandez <strong>au moins {{days}} jour à l'avance</strong>. Vous souhaitez mélanger roti et paratha pour un même plat ? Précisez la répartition dans la <strong>note de commande</strong>.",
+    "total": "Total de la commande",
+    "checkout": "Envoyer sur WhatsApp"
+  },
+  "checkout": {
+    "title": "Vous y êtes presque !",
+    "description": "Indiquez vos coordonnées pour que nous puissions confirmer votre commande et organiser la livraison.",
+    "name": "Votre nom",
+    "namePlaceholder": "Ex. : Shree Krishna",
+    "phone": "Numéro WhatsApp",
+    "phonePlaceholder": "Ex. : {{phone}}",
+    "address": "Adresse de livraison (ou point de retrait)",
+    "addressPlaceholder": "Rue, arrondissement… ou retrait : Gallieni / Montreuil",
+    "note": "Une demande particulière ? (facultatif)",
+    "notePlaceholder": "Ex. : bien épicé, sans oignon…",
+    "back": "Retour",
+    "send": "Envoyer la commande"
+  },
+  "notices": {
+    "added": "Ajouté à la commande ✓",
+    "partyAdded": "Plat de fête — à partir de {{minimum}} portions ✓",
+    "partyRemoved": "Minimum de {{minimum}} portions — article retiré",
+    "empty": "Votre panier est vide !",
+    "closed": "Commandes de 7 h à 20 h. Réessayez demain ! 🌙",
+    "minimum": "Minimum de commande : {{minimum}}. Ajoutez d'autres spécialités ! 🛒",
+    "requiredDetails": "Veuillez saisir votre nom et votre numéro de téléphone !",
+    "sent": "WhatsApp est ouvert. Envoyez-y le message pour finaliser votre commande.",
+    "whatsappBlocked": "Impossible d'ouvrir WhatsApp. Votre panier et vos coordonnées sont conservés ici. Autorisez la nouvelle fenêtre et réessayez.",
+    "invalidQuantity": "Vérifiez les quantités avant de commander ({{maximum}} maximum par article). Votre panier est conservé."
+  },
+  "metadata": {
+    "title": "Shree Krishna Nasta House — Spécialités gujaraties authentiques, Paris",
+    "description": "Nasta gujaratis faits maison à Paris, 100% végétariens. Commande minimum €30. Livraison en Île-de-France. Commandez sur WhatsApp.",
+    "socialTitle": "Shree Krishna Nasta House — Spécialités gujaraties à Paris 🪔",
+    "socialDescription": "Nasta gujaratis faits maison à Paris, 100% végétariens. Commande minimum €30. Livraison en Île-de-France. Commandez sur WhatsApp.",
+    "imageAlt": "Logo de Shree Krishna Nasta House — spécialités gujaraties à Paris"
+  },
+  "menu": {
+    "label": "Nos préparations",
+    "title": "Notre carte",
+    "description": "Tout est préparé frais chaque jour selon des recettes traditionnelles gujaraties. Commandez sur WhatsApp pour une livraison le jour même.",
+    "categories": {
+      "steamed": "Délices vapeur",
+      "street": "Spécialités de rue",
+      "sweet": "Douceurs sucrées",
+      "specials": "Spécialités de la semaine",
+      "drinks": "Boisson",
+      "party": "Nasta et en-cas",
+      "partymeals": "Repas complets"
+    },
+    "partyLabel": "Un repas de groupe ?",
+    "partyTitle": "Carte pour groupes",
+    "partyDescription": "Pour les groupes de 5 personnes ou plus — chaque plat ci-dessous est proposé <strong>par personne</strong>, avec un <strong>minimum de 5 portions par plat</strong>. Idéal pour les réunions, pujas, anniversaires et moments à partager.",
+    "partyAdvance": "Les commandes de groupe doivent être passées <strong>au moins 1 jour à l’avance</strong> avant votre événement.",
+    "preorder": "Précommande",
+    "minimumServings": "Min. {{minimum}} portions",
+    "servedWith": "Accompagnement · 3 pièces",
+    "chooseOne": "Choisissez une option",
+    "add": "Ajouter",
+    "addItem": "Ajouter {{name}} à la commande",
+    "decreaseItem": "Diminuer la quantité de {{name}}",
+    "increaseItem": "Augmenter la quantité de {{name}}"
+  },
+  "choices": {
+    "Roti": "Roti",
+    "Paratha": "Paratha",
+    "Khaman": "Khaman",
+    "Dhokla": "Dhokla"
+  },
+  "products": {
+    "1": {
+      "name": "Khaman d’Ahmedabad",
+      "unit": "(6 pièces)",
+      "description": "Gâteau de farine de pois chiches cuit à la vapeur, tendre et moelleux — l’en-cas préféré d’Ahmedabad. Servi avec un chutney de coriandre fraîche."
+    },
+    "2": {
+      "name": "Dhokla d’Ahmedabad",
+      "unit": "(6 pièces)",
+      "description": "Dhokla fermenté et aérien, relevé de graines de moutarde, de piment vert et de feuilles de curry. Un classique gujarati."
+    },
+    "3": {
+      "name": "Tam Tam Khaman",
+      "unit": "(6 pièces)",
+      "description": "Un khaman plus épicé, aux bords croustillants, relevé d’un assaisonnement acidulé maison. Un véritable favori."
+    },
+    "4": {
+      "name": "Idada",
+      "unit": "(6 pièces)",
+      "description": "Gâteau vapeur de riz blanc et de lentilles urad, léger et délicat. Un incontournable du petit-déjeuner traditionnel de Surat."
+    },
+    "5": {
+      "name": "Vada Pav de Mumbai",
+      "unit": "(2 pièces)",
+      "description": "Le légendaire burger de rue de Mumbai : un beignet de pomme de terre croustillant dans un pain pav moelleux, accompagné de chutneys. Toute la magie de la cuisine de rue."
+    },
+    "6": {
+      "name": "Dabeli de Kutch",
+      "unit": "(2 pièces)",
+      "description": "Sandwich sucré et épicé de Kutch, garni de pommes de terre au masala, de graines de grenade et de cacahuètes grillées."
+    },
+    "7": {
+      "name": "Samosa épicé",
+      "unit": "(2 pièces)",
+      "description": "Chausson doré et croustillant, garni de pommes de terre poivrées et de petits pois. Préparé frais, jamais surgelé. Servi avec des chutneys."
+    },
+    "8": {
+      "name": "Batata Vada",
+      "unit": "(4 pièces)",
+      "description": "Beignets de pomme de terre enrobés de farine de pois chiches, délicieusement épicés. À savourer seuls ou avec un chutney vert."
+    },
+    "9": {
+      "name": "Mirchi de Bhavnagar",
+      "unit": "(4 pièces)",
+      "description": "Les célèbres beignets de piments verts farcis de Bhavnagar — intenses, irrésistibles et réservés aux amateurs de sensations fortes ! 🔥"
+    },
+    "10": {
+      "name": "Gulab Jamun",
+      "unit": "(4 pièces)",
+      "description": "Boulettes moelleuses à base de lait, baignées dans un sirop de sucre à la rose et à la cardamome. Une douceur gujaratie divine."
+    },
+    "11": {
+      "name": "Shrikhand",
+      "unit": "(500 g)",
+      "description": "Yaourt égoutté onctueux, sucré et parfumé au safran. Préparé frais avec du dahi au lait entier."
+    },
+    "12": {
+      "name": "Shrikhand à la mangue",
+      "unit": "(500 g)",
+      "description": "Shrikhand mélangé à de la pulpe de mangue Alphonso — une spécialité estivale irrésistible qui vaut chaque euro."
+    },
+    "13": {
+      "name": "Undhiyu de Surat",
+      "unit": "(500 g)",
+      "description": "Le roi des plats d’hiver gujaratis : des légumes de saison mijotés avec des muthiya au fenugrec. Préparé avec amour et patience."
+    },
+    "14": {
+      "name": "Handvo",
+      "unit": "(2 pièces)",
+      "description": "Gâteau salé gujarati aux lentilles, cuit au four avec des légumes et des graines de sésame. Croustillant à l’extérieur, tendre à l’intérieur."
+    },
+    "15": {
+      "name": "Chaas au masala",
+      "unit": "(250 ml)",
+      "description": "Lait fermenté frais, relevé de cumin, de sel noir, de gingembre et de coriandre fraîche. La boisson idéale pour faciliter la digestion."
+    },
+    "16": {
+      "name": "Pani Poori",
+      "unit": "(10 pièces)",
+      "description": "Petites coques croustillantes garnies d’eau acidulée au tamarin, de pommes de terre épicées et de pois chiches. L’en-cas de rue gujarati par excellence !"
+    },
+    "17": {
+      "name": "Thepla + pickles variés",
+      "unit": "(10 pièces)",
+      "description": "Galettes gujaraties tendres et dorées aux feuilles de fenugrec fraîches — parfumées, légèrement épicées et parfaitement dorées à la poêle. Accompagnées de pickles variés acidulés."
+    },
+    "18": {
+      "name": "Batata Poha",
+      "unit": "(par personne)",
+      "description": "Riz aplati léger, sauté avec du curcuma, des graines de moutarde, des cacahuètes et de la coriandre fraîche. Un petit-déjeuner gujarati réconfortant à partager."
+    },
+    "19": {
+      "name": "Pav Bhaji",
+      "unit": "(par personne)",
+      "description": "Purée de légumes au beurre, mijotée dans notre masala maison et servie avec du pav grillé, des oignons et du citron. Un succès assuré à partager."
+    },
+    "20": {
+      "name": "Sev Tameta",
+      "unit": "(par personne)",
+      "description": "Curry de tomates acidulé du Kathiawar, généreusement garni de sev croustillants. Sucré, épicé et irrésistible avec du rotli ou du riz."
+    },
+    "21": {
+      "name": "Lasaniya Bataka",
+      "unit": "(par personne)",
+      "description": "Petites pommes de terre du Kathiawar, mijotées dans un masala puissant à l’ail et au piment rouge. Pour les amateurs de plats relevés ! 🔥"
+    },
+    "22": {
+      "name": "Dal gujarati",
+      "unit": "(par personne)",
+      "description": "L’emblématique dal de pois d’Angole, sucré, acidulé et épicé, aux cacahuètes, au kokum et au jaggery. Le goût de la maison, dans un parfait équilibre doux-acidulé."
+    },
+    "23": {
+      "name": "Kadhi gujaratie",
+      "unit": "(par personne)",
+      "description": "Sauce soyeuse au yaourt et à la farine de pois chiches, relevée de feuilles de curry, de clous de girofle et de cannelle. Légère et réconfortante, idéale avec du khichdi ou du riz."
+    },
+    "24": {
+      "name": "Lasaniya Kaju",
+      "unit": "(par personne)",
+      "description": "Noix de cajou mijotées dans une sauce du Kathiawar à l’ail et au piment — généreuse, relevée et inoubliable. Servi avec 3 rotis ou parathas par personne."
+    },
+    "25": {
+      "name": "Kaju Gathiya",
+      "unit": "(par personne)",
+      "description": "Un shaak royal du Kathiawar : noix de cajou et gathiya tendres dans une sauce épicée au yaourt et à la tomate. Servi avec 3 rotis ou parathas par personne."
+    },
+    "26": {
+      "name": "Paneer au beurre et masala",
+      "unit": "(par personne)",
+      "description": "Dés de paneer tendres dans une sauce soyeuse au beurre, à la tomate et aux noix de cajou — un grand favori, préparé comme à la maison. Servi avec 3 rotis ou parathas par personne."
+    },
+    "27": {
+      "name": "Thali gujarati",
+      "unit": "(par personne)",
+      "description": "<strong>Un repas complet</strong> — tout un festin gujarati dans une assiette : 1 samosa, légumes au paneer, dal, riz vapeur, douceur du jour, salade, raita, achar et un verre de chaas au masala. Choisissez vos rotis/parathas et votre khaman/dhokla ci-dessous."
+    },
+    "28": {
+      "name": "Sukhi Bhaji",
+      "unit": "(par personne)",
+      "description": "Petites pommes de terre aux épices sèches, relevées de cumin et de sésame, puis garnies de grenade, de cacahuètes grillées et de coriandre fraîche. Un classique des fêtes gujaraties."
+    }
+  },
+  "hero": {
+    "eyebrow": "Fait maison · Gujarati · Livré à Paris",
+    "title": "Authentique<break/><emphasis>nasta</emphasis><break/>gujarati.",
+    "description": "Des spécialités gujaraties traditionnelles, préparées à la main chaque jour, emballées avec amour et livrées par nos soins à votre porte à Paris. 100% végétarien.",
+    "orderNow": "Commander",
+    "ourStory": "Notre histoire",
+    "mantra": "॥ Jay Shree Krishna ॥"
+  },
+  "story": {
+    "portrait": "Un mari et sa femme,<break/>une cuisine de cœur<break/>au cœur de Paris.",
+    "vegetarianBadge": "100%<break/>Végétarien",
+    "label": "Dans les coulisses de notre cuisine",
+    "title": "Une famille,<break/>une tradition,<break/>une promesse.",
+    "origin": "Nous sommes un couple originaire du <strong>Gujarat, en Inde</strong>, et nous partageons aujourd’hui les saveurs authentiques de notre région dans les rues de Paris.",
+    "experience": "Avec <strong>plus de 9 ans d’expérience professionnelle comme chef à Paris</strong>, chaque plat allie la précision d’une cuisine professionnelle à la chaleur du fait maison. Toutes nos spécialités sont préparées chaque jour selon des recettes transmises de génération en génération.",
+    "delivery": "Nous assurons nous-mêmes les livraisons, ensemble, pour que chaque commande vous donne l’impression de venir de la famille.",
+    "features": {
+      "chef": {
+        "title": "9+ ans comme chef",
+        "description": "Une expérience culinaire professionnelle à Paris : un savoir-faire, des recettes authentiques et une qualité de restaurant à votre porte."
+      },
+      "vegetarian": {
+        "title": "100% végétarien",
+        "description": "Chaque plat est entièrement végétarien, préparé avec amour et sans compromis."
+      },
+      "delivery": {
+        "title": "Livraison par nos soins",
+        "description": "Nous livrons nous-mêmes : sans intermédiaire, sans retard, sans surprise."
+      },
+      "contact": {
+        "title": "Toujours joignables",
+        "description": "Pour vos commandes et questions, appelez-nous ou contactez-nous sur WhatsApp au <phoneOne>{{phone1}}</phoneOne> ou au <phoneTwo>{{phone2}}</phoneTwo>."
+      }
+    }
+  },
+  "packaging": {
+    "label": "Fiable · Hygiénique · Sûr",
+    "title": "Emballé avec soin",
+    "description": "Nous apportons autant de soin à l’emballage qu’à la cuisine.",
+    "sealing": {
+      "title": "Fermeture anti-fuite",
+      "description": "Chaque contenant est fermé hermétiquement pour que vos plats arrivent comme ils ont quitté notre cuisine : sans fuite ni dégât, c’est garanti."
+    },
+    "temperature": {
+      "title": "Chaleur préservée",
+      "description": "Un emballage isolant garde votre repas au chaud pendant le trajet. Votre dal sera encore bien chaud à l’ouverture."
+    },
+    "materials": {
+      "title": "Matériaux écoresponsables",
+      "description": "Nous utilisons des contenants adaptés aux aliments et respectueux de l’environnement, car votre famille et la planète comptent autant pour nous."
+    }
+  },
+  "cta": {
+    "title": "Prêt à commander ? C’est simple.",
+    "description": "Parcourez le menu, remplissez votre panier et indiquez vos coordonnées. Nous confirmerons votre commande et livrerons du nasta gujarati frais à votre porte à Paris.",
+    "browseOrder": "Voir le menu et commander",
+    "chatWhatsApp": "Discuter sur WhatsApp"
+  },
+  "footer": {
+    "copyright": "© {{year}} <strong>Shree Krishna Nasta House</strong> · Spécialités gujaraties authentiques · Paris, France · 🙏 Jay Shree Krishna",
+    "deliveryNotice": "Commande minimum €30 · Livraison gratuite · Île-de-France uniquement · Retrait : Marie de Montreuil (M9) et Gallieni (M3)"
+  }
+}

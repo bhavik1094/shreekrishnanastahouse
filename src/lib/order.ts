@@ -139,5 +139,5 @@ export function createOrderMessage(
     'Jay Shree Krishna',
   ].filter((part) => part !== null && part !== undefined).join('\n').trim();
 
-  return { message, submittedIds: items.map(({ item }) => item.id), total };
+  return { message, orderRef, itemsText: itemLines.join('\n'), submittedIds: items.map(({ item }) => item.id), total };
 }

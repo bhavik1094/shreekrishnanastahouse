@@ -23,6 +23,9 @@ export function canvasContext(): CanvasRenderingContext2D {
 }
 
 beforeEach(() => {
+  // Never contact a configured Apps Script deployment from the test suite.
+  // Notification tests opt in to a test-only URL and mock fetch explicitly.
+  vi.stubEnv('VITE_GOOGLE_SCRIPT_URL', '');
   vi.useFakeTimers({ toFake: ['Date', 'setTimeout', 'clearTimeout'] });
   // Wednesday, 13:34 in Paris; the local timestamp is shared by both runtimes.
   vi.setSystemTime(new Date('2026-10-28T12:34:00Z'));
@@ -55,5 +58,6 @@ afterEach(() => {
   vi.clearAllTimers();
   vi.restoreAllMocks();
   vi.unstubAllGlobals();
+  vi.unstubAllEnvs();
   vi.useRealTimers();
 });

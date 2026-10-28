@@ -1,0 +1,303 @@
+{
+  "hours": { "opens": "7:00 AM", "closes": "8:00 PM" },
+  "language": {
+    "label": "Website language",
+    "name": "English"
+  },
+  "navigation": {
+    "label": "Main navigation",
+    "brandFirst": "Shree Krishna",
+    "brandSecond": "Nasta House",
+    "menu": "Menu",
+    "partyMenu": "Party Menu",
+    "story": "Our Story",
+    "packaging": "Packaging",
+    "order": "My Order"
+  },
+  "cart": {
+    "open": "Open your order ({{count}} items)",
+    "title": "Your Order",
+    "close": "Close your order",
+    "empty": "Your cart is empty.",
+    "emptyInitial": "Add something delicious!",
+    "emptyAfterUpdate": "Add some delicious nasta!",
+    "breadPortion": "{{bread}} ({{quantity}} pcs)",
+    "decrease": "Decrease quantity of {{product}}",
+    "increase": "Increase quantity of {{product}}",
+    "closedNotice": "<strong>We're closed right now.</strong> Orders can be placed between <strong>{{opens}} and {{closes}}</strong>, {{days}} days a week. Come back tomorrow morning and we'll be ready! 🪔",
+    "minimumNotice": "<strong>Minimum order is {{minimum}}.</strong> Add <remaining>{{remaining}}</remaining> more to place your order. We deliver across <strong>Île-de-France</strong> only (Paris & surrounding departments).",
+    "preorderNotice": "<strong>Pre-order notice:</strong> Your order includes {{product}}, which requires <strong>{{days}} day advance notice</strong>. Please place your order today for tomorrow's delivery.",
+    "partyNotice": "<strong>Party Menu:</strong> These dishes are priced <strong>per person</strong> with a <strong>minimum of {{minimum}} servings each</strong>, and need to be ordered <strong>at least {{days}} day in advance</strong> of your event. Want to mix roti & paratha for the same dish? Just mention the split in the <strong>order note</strong>.",
+    "total": "Order Total",
+    "checkout": "Send on WhatsApp"
+  },
+  "checkout": {
+    "title": "Almost there!",
+    "description": "Tell us who you are so we can confirm your order and arrange delivery.",
+    "name": "Your Name",
+    "namePlaceholder": "e.g. Shree Krishna",
+    "phone": "WhatsApp Number",
+    "phonePlaceholder": "e.g. {{phone}}",
+    "address": "Delivery Address (or choose pickup point)",
+    "addressPlaceholder": "Street, arrondissement… or Pickup: Gallieni / Montreuil",
+    "note": "Any Special Request? (optional)",
+    "notePlaceholder": "e.g. extra spicy, no onion…",
+    "back": "Back",
+    "send": "Send Order"
+  },
+  "notices": {
+    "added": "Added to order ✓",
+    "partyAdded": "Party item — starts at {{minimum}} servings ✓",
+    "partyRemoved": "Minimum is {{minimum}} servings — item removed",
+    "empty": "Your cart is empty!",
+    "closed": "Orders open 7 AM – 8 PM. Try again tomorrow! 🌙",
+    "minimum": "Minimum order is {{minimum}}. Keep adding! 🛒",
+    "requiredDetails": "Please enter your name & phone number!",
+    "sent": "WhatsApp opened. Send the message there to complete your order.",
+    "whatsappBlocked": "WhatsApp could not open. Your cart and details are still here. Allow the new window and try again.",
+    "invalidQuantity": "Check item quantities before checkout (maximum {{maximum}} per item). Your cart is unchanged."
+  },
+  "metadata": {
+    "title": "Shree Krishna Nasta House — Authentic Gujarati Snacks, Paris",
+    "description": "Fresh homemade Gujarati snacks in Paris, 100% vegetarian. Minimum order €30. Delivery across Île-de-France. Order on WhatsApp.",
+    "socialTitle": "Shree Krishna Nasta House — Gujarati Snacks in Paris 🪔",
+    "socialDescription": "Fresh homemade Gujarati snacks in Paris, 100% vegetarian. Minimum order €30. Delivery across Île-de-France. Order on WhatsApp.",
+    "imageAlt": "Shree Krishna Nasta House logo — Gujarati snacks in Paris"
+  },
+  "menu": {
+    "label": "What We Make",
+    "title": "Our Menu",
+    "description": "Everything is prepared fresh daily using traditional Gujarati recipes. Order by WhatsApp for same-day delivery.",
+    "categories": {
+      "steamed": "Steamed Delights",
+      "street": "Street Specials",
+      "sweet": "Sweet Treats",
+      "specials": "Weekly Specials",
+      "drinks": "Beverage",
+      "party": "Nasta & Snacks",
+      "partymeals": "Full Meals"
+    },
+    "partyLabel": "Feeding a Crowd?",
+    "partyTitle": "Party Menu",
+    "partyDescription": "For groups of 5 or more — every dish below is priced <strong>per person</strong>, with a <strong>minimum of 5 servings per dish</strong>. Perfect for gatherings, pujas, birthdays & get-togethers.",
+    "partyAdvance": "Party orders need to be placed <strong>at least 1 day in advance</strong> of your event.",
+    "preorder": "Pre-order",
+    "minimumServings": "Min {{minimum}} servings",
+    "servedWith": "Served with · 3 pcs",
+    "chooseOne": "Choose one",
+    "add": "Add",
+    "addItem": "Add {{name}} to order",
+    "decreaseItem": "Decrease quantity of {{name}}",
+    "increaseItem": "Increase quantity of {{name}}"
+  },
+  "choices": {
+    "Roti": "Roti",
+    "Paratha": "Paratha",
+    "Khaman": "Khaman",
+    "Dhokla": "Dhokla"
+  },
+  "products": {
+    "1": {
+      "name": "Ahmedabad Khaman",
+      "unit": "(6 pcs)",
+      "description": "Soft, spongy steamed gram flour cake — Ahmedabad's most beloved snack. Served with fresh coriander chutney."
+    },
+    "2": {
+      "name": "Ahmedabad Dhokla",
+      "unit": "(6 pcs)",
+      "description": "Fluffy fermented dhokla tempered with mustard seeds, green chilli &amp; curry leaves. A Gujarati classic."
+    },
+    "3": {
+      "name": "Tam Tam Khaman",
+      "unit": "(6 pcs)",
+      "description": "A spicier, crispy-edged khaman with a signature tangy tempering. A real crowd favourite."
+    },
+    "4": {
+      "name": "Idada",
+      "unit": "(6 pcs)",
+      "description": "White rice &amp; urad dal steamed cake, light and delicate. A traditional breakfast favourite from Surat."
+    },
+    "5": {
+      "name": "Mumbai Vada Pav",
+      "unit": "(2 pcs)",
+      "description": "The legendary Mumbai street burger — crispy potato vada in a soft pav with chutneys. Pure street magic."
+    },
+    "6": {
+      "name": "Kutchi Dabeli",
+      "unit": "(2 pcs)",
+      "description": "Sweet &amp; spicy Kutch-style sandwich stuffed with masala potato, pomegranate seeds &amp; roasted peanuts."
+    },
+    "7": {
+      "name": "Spicy Samosa",
+      "unit": "(2 pcs)",
+      "description": "Golden crispy pastry filled with peppery potato &amp; peas. Made fresh, not frozen. Served with chutneys."
+    },
+    "8": {
+      "name": "Batata Vada",
+      "unit": "(4 pcs)",
+      "description": "Classic besan-battered potato fritters, spiced to perfection. Great on their own or with green chutney."
+    },
+    "9": {
+      "name": "Bhavnagari Mirchi",
+      "unit": "(4 pcs)",
+      "description": "Bhavnagar's iconic stuffed green chilli fritters — bold, addictive, and not for the faint-hearted! 🔥"
+    },
+    "10": {
+      "name": "Gulab Jamun",
+      "unit": "(4 pcs)",
+      "description": "Soft milk solids dumplings soaked in rose-cardamom sugar syrup. A heavenly Gujarati mithai."
+    },
+    "11": {
+      "name": "Shrikhand",
+      "unit": "(500g)",
+      "description": "Creamy strained yogurt sweetened with sugar &amp; saffron. Made fresh with full-fat dahi."
+    },
+    "12": {
+      "name": "Mango Shrikhand",
+      "unit": "(500g)",
+      "description": "Shrikhand blended with Alphonso mango pulp — an irresistible summer special worth every euro."
+    },
+    "13": {
+      "name": "Surti Undhiyu",
+      "unit": "(500g)",
+      "description": "The king of Gujarati winter dishes — slow-cooked seasonal vegetables with fenugreek muthiya. A labour of love."
+    },
+    "14": {
+      "name": "Handvo",
+      "unit": "(2 pcs)",
+      "description": "Savoury Gujarati lentil cake baked with vegetables &amp; sesame seeds. Crispy outside, soft inside."
+    },
+    "15": {
+      "name": "Masala Chaas",
+      "unit": "(250ml)",
+      "description": "Chilled buttermilk tempered with cumin, black salt, ginger &amp; fresh coriander. The perfect digestif."
+    },
+    "16": {
+      "name": "Pani Poori",
+      "unit": "(10 pcs)",
+      "description": "Crispy hollow puris filled with tangy tamarind water, spiced potato &amp; chickpeas. The ultimate Gujarati street snack!"
+    },
+    "17": {
+      "name": "Thepla+Mixed Pickle",
+      "unit": "(10 pcs)",
+      "description": "Soft, golden Gujarati flatbreads made with fresh fenugreek leaves — fragrant, lightly spiced, and pan-roasted to perfection. Served with a tangy Mixed Pickle that brings it all together."
+    },
+    "18": {
+      "name": "Batata Poha",
+      "unit": "(per person)",
+      "description": "Fluffy flattened rice tossed with turmeric, mustard seeds, peanuts &amp; fresh coriander. A light, comforting Gujarati breakfast classic for the whole group."
+    },
+    "19": {
+      "name": "Pav Bhaji",
+      "unit": "(per person)",
+      "description": "Buttery mashed vegetable bhaji simmered in signature masala, served with toasted pav, onions &amp; lemon. The ultimate crowd-pleaser."
+    },
+    "20": {
+      "name": "Sev Tameta",
+      "unit": "(per person)",
+      "description": "Tangy Kathiyawadi tomato curry topped generously with crispy sev. Sweet, spicy &amp; utterly addictive with rotli or rice."
+    },
+    "21": {
+      "name": "Lasaniya Bataka",
+      "unit": "(per person)",
+      "description": "Fiery Kathiyawadi baby potatoes slow-cooked in a bold garlic-red chilli masala. For those who love it hot! 🔥"
+    },
+    "22": {
+      "name": "Gujarati Dal",
+      "unit": "(per person)",
+      "description": "The iconic sweet-tangy-spicy toor dal with peanuts, kokum &amp; jaggery. Tastes just like home — khatti mithi perfection."
+    },
+    "23": {
+      "name": "Gujarati Kadhi",
+      "unit": "(per person)",
+      "description": "Silky yogurt-besan kadhi tempered with curry leaves, cloves &amp; cinnamon. Light, soothing &amp; the perfect partner to khichdi or rice."
+    },
+    "24": {
+      "name": "Lasaniya Kaju",
+      "unit": "(per person)",
+      "description": "Rich cashews simmered in a bold Kathiyawadi garlic-chilli gravy — indulgent, fiery &amp; unforgettable. Served with 3 roti or paratha per person."
+    },
+    "25": {
+      "name": "Kaju Gathiya",
+      "unit": "(per person)",
+      "description": "A royal Kathiyawadi shaak of cashews &amp; soft gathiya in a spiced yogurt-tomato gravy. Served with 3 roti or paratha per person."
+    },
+    "26": {
+      "name": "Paneer Butter Masala",
+      "unit": "(per person)",
+      "description": "Soft paneer cubes in a silky, buttery tomato-cashew gravy — everyone's favourite, made the homely way. Served with 3 roti or paratha per person."
+    },
+    "27": {
+      "name": "Gujarati Thali",
+      "unit": "(per person)",
+      "description": "<strong>A complete meal</strong> — the full Gujarati feast on one plate: 1 samosa, paneer sabzi, dal, steamed rice, sweet of the day, salad, raita, achar &amp; a glass of masala chaas. Choose your roti/paratha &amp; Khaman/Dhokla below."
+    },
+    "28": {
+      "name": "Sukhi Bhaji",
+      "unit": "(per person)",
+      "description": "Dry-spiced baby potatoes tempered with cumin &amp; sesame, finished with pomegranate, roasted peanuts &amp; fresh coriander. A festive Gujarati classic."
+    }
+  },
+  "hero": {
+    "eyebrow": "Homemade · Gujarati · Delivered in Paris",
+    "title": "Authentic<break/><emphasis>Gujarati</emphasis><break/>Nasta.",
+    "description": "Traditional Gujarati snacks — made fresh daily by hand, packed with love, and delivered personally to your door in Paris. 100% vegetarian.",
+    "orderNow": "Order Now",
+    "ourStory": "Our Story",
+    "mantra": "॥ Jay Shree Krishna ॥"
+  },
+  "story": {
+    "portrait": "A husband & wife,<break/>cooking with heart<break/>in the heart of Paris.",
+    "vegetarianBadge": "100%<break/>Vegetarian",
+    "label": "Behind the Kitchen",
+    "title": "A family,<break/>a tradition,<break/>a promise.",
+    "origin": "We are a husband and wife duo, originally from <strong>Gujarat, India</strong>, now bringing the authentic flavours of our homeland to the streets of Paris.",
+    "experience": "With <strong>over 9 years of professional culinary experience as a Chef in Paris</strong>, every dish carries the precision of a trained kitchen and the warmth of a home cook. Each item is prepared fresh daily using recipes passed down through generations.",
+    "delivery": "We deliver personally — together — because we want every order to feel like it came from family.",
+    "features": {
+      "chef": {
+        "title": "9+ Years as a Chef",
+        "description": "Professional culinary experience in Paris — trained hands, authentic recipes, restaurant-quality taste at your doorstep."
+      },
+      "vegetarian": {
+        "title": "100% Vegetarian",
+        "description": "Every dish is fully vegetarian — made with love and no compromise."
+      },
+      "delivery": {
+        "title": "Personal Delivery",
+        "description": "We deliver it ourselves — no middlemen, no delays, no surprises."
+      },
+      "contact": {
+        "title": "Always Reachable",
+        "description": "Call or WhatsApp us on <phoneOne>{{phone1}}</phoneOne> or <phoneTwo>{{phone2}}</phoneTwo> for orders & queries."
+      }
+    }
+  },
+  "packaging": {
+    "label": "Reliable · Hygienic · Safe",
+    "title": "Packed with Care",
+    "description": "We take our packaging as seriously as the cooking itself.",
+    "sealing": {
+      "title": "Spill-Proof Sealing",
+      "description": "Every container is sealed air-tight so your food arrives exactly as it left our kitchen — no leaks, no mess, guaranteed."
+    },
+    "temperature": {
+      "title": "Temperature Retained",
+      "description": "Insulated packing keeps your tiffin warm during transit. Your dal will still be piping hot when you open it."
+    },
+    "materials": {
+      "title": "Eco-Friendly Materials",
+      "description": "We use food-grade, eco-conscious containers — because we care about your family and the environment equally."
+    }
+  },
+  "cta": {
+    "title": "Ready to Order? It's Simple.",
+    "description": "Browse the menu, add to your cart, share your details — and we'll confirm & deliver fresh Gujarati nasta to your door in Paris.",
+    "browseOrder": "Browse & Order",
+    "chatWhatsApp": "Chat on WhatsApp"
+  },
+  "footer": {
+    "copyright": "© {{year}} <strong>Shree Krishna Nasta House</strong> · Authentic Gujarati Snacks · Paris, France · 🙏 Jay Shree Krishna",
+    "deliveryNotice": "Minimum order €30 · Free delivery · Île-de-France only · Pickup: Marie de Montreuil (M9) & Gallieni (M3)"
+  }
+}

@@ -3,6 +3,8 @@ import { useEffect, type RefObject } from 'react';
 export function useTabPeek(tabsRef: RefObject<HTMLDivElement | null>, wrapRef: RefObject<HTMLDivElement | null>) {
   useEffect(() => {
     if (window.innerWidth > 900) return;
+    const motionPreference = window.matchMedia?.('(prefers-reduced-motion: reduce)');
+    if (motionPreference?.matches) return;
     const tabs = tabsRef.current;
     const wrap = wrapRef.current;
     if (!tabs || !wrap) return;
@@ -19,10 +21,11 @@ export function useTabPeek(tabsRef: RefObject<HTMLDivElement | null>, wrapRef: R
       }
     };
     const peek = () => {
+      if (motionPreference?.matches) return;
       peeking = true;
       tabs.scrollTo({ left: Math.round(tabs.scrollWidth * 0.3), behavior: 'smooth' });
       timers.push(setTimeout(() => {
-        tabs.scrollTo({ left: 0, behavior: 'smooth' });
+        tabs.scrollTo({ left: 0, behavior: motionPreference?.matches ? 'auto' : 'smooth' });
         timers.push(setTimeout(() => { peeking = false; }, 700));
       }, 700));
     };

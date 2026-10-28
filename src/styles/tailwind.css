@@ -2,3 +2,104 @@
 @layer theme, utilities;
 @import "tailwindcss/theme.css" layer(theme);
 @import "tailwindcss/utilities.css" layer(utilities);
+
+/* Match the existing cream, spice and rounded header controls. */
+.nav-actions { display: flex; align-items: center; gap: 0.7rem; flex-shrink: 0; }
+.language-selector select {
+  max-width: 100%;
+  min-height: 36px;
+  padding: 0.45rem 0.65rem;
+  border: 1px solid rgba(196, 75, 26, 0.3);
+  border-radius: 50px;
+  background: var(--cream);
+  color: var(--bark-mid);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.language-selector select:focus-visible { outline: 2px solid var(--spice); outline-offset: 3px; }
+nav { gap: 1rem; }
+.nav-links { flex-wrap: wrap; justify-content: center; gap: 0.6rem 1.5rem; }
+@media (max-width: 1100px) and (min-width: 901px) {
+  nav { padding-inline: 1.2rem; }
+  .nav-links { gap: 0.6rem 0.8rem; }
+  .nav-logo { max-width: 230px; }
+}
+@media (max-width: 480px) {
+  .nav-actions { flex-direction: column; align-items: flex-end; gap: 0.3rem; }
+  .nav-actions .language-selector { order: 1; }
+  .language-selector select { padding: 0.4rem; font-size: 0.75rem; }
+  .nav-logo { min-width: 0; }
+  .nav-logo span { display: block; }
+}
+@media (max-width: 360px) {
+  .nav-actions { gap: 0.25rem; }
+  .nav-actions .cart-btn { padding-inline: 0.65rem; }
+  .nav-logo { font-size: 1rem; }
+}
+
+/* Keep translated product names readable and action rows aligned. */
+.food-card { display: flex; flex-direction: column; min-width: 0; }
+.food-img { flex-shrink: 0; }
+.food-body { display: flex; flex-direction: column; flex: 1; min-width: 0; }
+.food-foot { margin-top: auto; }
+.food-name { white-space: normal; flex-wrap: wrap; overflow: visible; }
+main > section[id] { scroll-margin-top: 2rem; }
+@media (max-width: 480px) {
+  main > section[id] { scroll-margin-top: 3rem; }
+}
+
+/* Full Meals share content-sized rows, including room for Thali's second choice. */
+@supports (grid-template-rows: subgrid) {
+  #grid-partymeals .food-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: subgrid;
+    grid-row: span 6;
+    row-gap: 0;
+  }
+  #grid-partymeals .food-img { grid-row: 1; align-self: start; }
+  #grid-partymeals .food-body {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: 2 / span 5;
+    row-gap: 0;
+  }
+  #grid-partymeals .food-name { grid-row: 1; align-self: start; }
+  #grid-partymeals .food-desc { grid-row: 2; }
+  /* Preserve the spacing formerly supplied by collapsing block margins. */
+  #grid-partymeals .bread-row { grid-row: 3; align-self: start; margin-top: 0; }
+  #grid-partymeals .bread-row + .bread-row { grid-row: 4; margin-top: 0.35rem; }
+  #grid-partymeals .food-foot { grid-row: 5; margin-top: 0; }
+}
+
+/* Keep checkout and every cart notice reachable on short/mobile viewports. */
+.c-drawer { height: 100dvh; overflow-y: auto; }
+.c-head, .c-foot { flex-shrink: 0; }
+.c-items { flex: 1 0 8rem; min-height: 8rem; }
+.c-item-info { min-width: 0; overflow-wrap: anywhere; }
+.c-item-qty { flex-shrink: 0; }
+.m-overlay { overflow-y: auto; }
+.modal { max-height: calc(100dvh - 2rem); overflow-y: auto; }
+
+.toast {
+  width: max-content;
+  max-width: calc(100vw - 2rem);
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-align: center;
+  visibility: hidden;
+  transition-property: transform, visibility;
+  transition-duration: 0.3s;
+}
+.toast:not(.show) { transform: translateX(-50%) translateY(calc(100% + 2rem)); }
+.toast.show { visibility: visible; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .hero-bg, .hero-overlay, .hero-text-reveal, .tabs-scroll-hint, .wa-float, .menu-panel.active, .fu {
+    animation: none !important;
+  }
+  .hero-text-reveal, .fu, .d1, .d2, .d3, .d4 { opacity: 1; transform: none; }
+  .c-drawer, .m-overlay, .modal, .toast, .food-card { transition: none; }
+}

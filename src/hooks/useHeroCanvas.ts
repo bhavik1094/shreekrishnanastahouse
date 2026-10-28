@@ -60,6 +60,10 @@ export function useHeroCanvas(
     const ctx = context;
     let W = 0, H = 0, t = 0;
     let animationFrame = 0;
+    let inView = true;
+    let ready = false;
+    let disposed = false;
+    const motionPreference = window.matchMedia?.('(prefers-reduced-motion: reduce)');
   
     function resize() {
       W = canvas.width = hero.offsetWidth;
@@ -230,6 +234,8 @@ export function useHeroCanvas(
     let petalTimer = 0;
   
     function animate() {
+      animationFrame = 0;
+      if (disposed || !inView || motionPreference?.matches) return;
       t += 0.016;
       ctx.clearRect(0, 0, W, H);
   
@@ -342,13 +348,37 @@ export function useHeroCanvas(
       animationFrame = requestAnimationFrame(animate);
     }
   
-    // Start animation after a short delay for image to paint
-    const startTimer = window.setTimeout(() => animate(), 100);
+    function updatePlayback() {
+      if (disposed || !ready) return;
+      if (!inView || motionPreference?.matches) {
+        window.cancelAnimationFrame(animationFrame);
+        animationFrame = 0;
+        if (motionPreference?.matches) ctx.clearRect(0, 0, W, H);
+      } else if (!animationFrame) {
+        animate();
+      }
+    }
+
+    // Offscreen effects do not need to redraw while customers browse the menu.
+    const observer = typeof IntersectionObserver === 'undefined' ? undefined : new IntersectionObserver((entries) => {
+      const entry = entries.find((candidate) => candidate.target === hero);
+      if (!entry) return;
+      inView = entry.isIntersecting;
+      updatePlayback();
+    });
+    observer?.observe(hero);
+    motionPreference?.addEventListener('change', updatePlayback);
+
+    // Start animation after a short delay for image to paint.
+    const startTimer = window.setTimeout(() => { ready = true; updatePlayback(); }, 100);
   
     return () => {
+      disposed = true;
       window.clearTimeout(startTimer);
       window.cancelAnimationFrame(animationFrame);
       window.removeEventListener('resize', resize);
+      observer?.disconnect();
+      motionPreference?.removeEventListener('change', updatePlayback);
     };
   }, [heroRef, canvasRef]);
 }
